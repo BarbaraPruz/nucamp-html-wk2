@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>HTML CSS Demo</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+    <link rel="stylesheet" type="text/css" href="styles/tablestyle.css" />
+  </head>
+
+  <body>
+    <header>
+      <img src="images/logo.svg" alt="nucamp logo" />
+      <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="index.html#media">Media</a></li>
+        <li><a href="tables.html">Tables</a></li>
+        <li><a href="form.html">Form</a></li>
+      </ul>
+    </header>
+
+    <section id="tables">
+      <h1>Table Example</h1>
+      <div class="table-container">
+        <h2>Beaches</h2>
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">State</th>
+              <th scope="col">Area</th>
+              <th colspan="3" scope="colgroup">Best Beaches</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th rowspan="2" scope="rowgroup">Hawaii</th>
+              <th scope="row">Oahu</th>
+              <td>Waimanalo</td>
+              <td>Kailua</td>
+              <td>Sunset Beach</td>
+            </tr>
+            <tr>
+              <th scope="row">Kauai</th>
+              <td>Hanalei</td>
+              <td>Poipu</td>
+              <td>Anahola</td>
+            </tr>
+            <tr>
+              <th rowspan="3" scope="rowgroup">California</th>
+              <th scope="row">Southern</th>
+              <td>Malibu</td>
+              <td>Santa Monica</td>
+              <td>Coronado Beach</td>
+            </tr>
+            <tr>
+              <th scope="row">Northern</th>
+              <td>Santa Cruz</td>
+              <td>Three Rocks</td>
+              <td>The Great Beach</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </body>
+</html>

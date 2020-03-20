@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>HTML CSS Demo</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+    <link rel="stylesheet" type="text/css" href="styles/formstyle.css" />
+  </head>
+
+  <body>
+    <header>
+      <img src="images/logo.svg" alt="nucamp logo" />
+      <ul>
+        <li><a class="active" href="index.html#home">Home</a></li>
+        <li><a href="index.html#media">Media</a></li>
+        <li><a href="tables.html">Tables</a></li>
+        <li><a href="form.html">Form</a></li>
+      </ul>
+    </header>
+
+    <section>
+      <h1>Form Example</h1>
+      <div class="card center">
+        <h2>Let's Talk</h2>
+        <!-- note: just demonstrating styling and elements, so form has no action or method -->
+        <form class="contact-form">
+          <input placeholder="Name" name="name" />
+          <input placeholder="Email" name="email" type="email" />
+          <textarea
+            placeholder="Tell us about your project..."
+            rows="4"
+            name="info"
+          ></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
